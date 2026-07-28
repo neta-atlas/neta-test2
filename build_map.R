@@ -66,7 +66,7 @@ writeLines('<!DOCTYPE html>
 <style>
   body {
     font-family: Arial, sans-serif;
-    background-color: #f5f5f5;
+    background-color: #CC5500;
   }
 </style>
 </head>
