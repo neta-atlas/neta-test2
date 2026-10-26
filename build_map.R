@@ -14,7 +14,7 @@ pal = colorNumeric(
 )
 
 map = leaflet(sf) |>
-  addProviderTiles(providers$Jawg.Sunny) |>
+  addProviderTiles(providers$Stadia.Outdoors) |>
   addPolygons(
     fillColor = ~pal(sf$vulnerability_normalised),
     fillOpacity = 0.7,
